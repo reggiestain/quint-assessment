@@ -16,4 +16,5 @@ Route::post('/lead/create', 'LeadController@store')->name('lead.store');
 Route::group(['middleware' =>'auth'], function() {
 Route::get('/lead/index', 'LeadController@index')->name('lead.index');
 });
+//Auth routes
 Auth::routes();

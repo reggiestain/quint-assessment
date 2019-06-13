@@ -6,8 +6,6 @@ This application was developed with [laravel] 5.8*
 
 Install GIT 
 
-Install Composer
-
 Run the following GIT command to clone the project repository:
 
 ``` bash
@@ -15,16 +13,6 @@ Run the following GIT command to clone the project repository:
 $ cd /path/to/apache/www/directory
 
 $ git clone https://github.com/reggiestain/quint-assessment
-
-```
-
-Run the following Composer command to install dependencies:
-
-``` bash
-
-$ cd /path/to/apache/www/directory
-
-$ composer install
 
 ```
 
