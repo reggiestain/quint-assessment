@@ -48,12 +48,12 @@ $ php artisan migrate
 ``` bash
 
 | Language                          | Library   
-| --------------------------------- | ------------------------------------------------------------------------------ |
-| JavaScript  [Jquery]              | (https://code.jquery.com/jquery-3.3.1.js)                                      |
-| JavaScript  [JqueryDataTables]    | (https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js)               |
-| JavaScript  [DataTablesBootstrap] | (https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js)           |
-| CSS         [DataTables]          | (https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css)         |
-| CSS         [DataTables]          | (https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css)         |          
+| --------------------------------- | ------------------------------------------------------------------------------               |
+| JavaScript  [Jquery]              | (https://code.jquery.com/jquery-3.3.1.js)                                                    |
+| JavaScript  [JqueryDataTables]    | (https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js)                             |
+| JavaScript  [DataTablesBootstrap] | (https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js)                         |
+| JavaScript  [GOOGLE API PLACES]   | (https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap) |
+| CSS         [DataTables]          | (https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css)                       |          
 
 ```
 
