@@ -36,7 +36,6 @@ $ php artisan migrate
 
 | Language                          | Library   
 | --------------------------------- | ------------------------------------------------------------------------------ |
-| PHP 7.2 [illuminate/database]     | (https://github.com/illuminate/database)                                       | 
 | JavaScript  [Jquery]              | (https://code.jquery.com/jquery-3.3.1.js)                                      |
 | JavaScript  [JqueryDataTables]    | (https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js)               |
 | JavaScript  [DataTablesBootstrap] | (https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js)           |
@@ -57,9 +56,9 @@ $ php artisan serve
 
 You are now set to go.
 
-Run the application on your web server and register as a user to login with
+Run the application on your web server and register as a user
  
-Login with email and password to view all created leads
+Login with registered email and password to view all created leads
 
 After creating a lead 
 
