@@ -75,7 +75,9 @@ Login with registered email and password to view all created leads
 
 After creating a lead 
 
-## Run Job
+## Running The Queue Worker
+
+Laravel includes a queue worker that will process new jobs as they are pushed onto the queue. 
 
 ``` bash
 
