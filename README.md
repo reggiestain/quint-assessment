@@ -6,6 +6,8 @@ This application was developed with [laravel] 5.8*
 
 Install GIT 
 
+Install Composer
+
 Run the following GIT command to clone the project repository:
 
 ``` bash
@@ -15,6 +17,17 @@ $ cd /path/to/apache/www/directory
 $ git clone https://github.com/reggiestain/quint-assessment
 
 ```
+
+Run the following Composer command to install dependencies:
+
+``` bash
+
+$ cd /path/to/apache/www/directory
+
+$ composer install
+
+```
+
 ## Database Configuration
 
 Read and edit the .env file located in the project directory setup the 'Datasources' and any other configuration relevant to the application.
