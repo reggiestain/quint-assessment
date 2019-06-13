@@ -129,8 +129,7 @@
             </div>
             <div class="form-group">
                 <label for="textarea-char-counter">Question</label>
-                <textarea class="form-control" name="question" length="120" rows="3" placeholder="Please enter your question">                    
-                </textarea>                
+                <textarea class="form-control" name="question" length="120" rows="3" placeholder="Please enter your question"></textarea>                
             </div>
             <!-- Checkbox -->
             <div class="form-group">
