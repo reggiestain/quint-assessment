@@ -10,20 +10,17 @@
 
                 <nav id="menu" class="d-none d-lg-block">
                     <ul>
-                        @auth                       
-                        <li class="has-child">
-                            <a href="#" style="color:#dddb00">{{ Auth::user()->name }} <span class="fa-caret"></span></a>
-                            <ul class="sub-menu">
-                                <li> <a style="font-size:14px;font-weight:bold" href="#" onclick="event.preventDefault();
-                                        document.getElementById('logout-form').submit();">
-                                    Logout
-                                </a>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                    @csrf
-                                </form>
-                                </li>
-                            </ul>
+                        @auth 
+                        <li><a href="#" style="color:#dddb00">{{ Auth::user()->name }}</a></li>
+                        <li> <a style="font-size:14px;font-weight:bold;color:#fff" href="#" onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                                Logout
+                            </a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
                         </li>
+
                         @else                       
                         <li><a href="{{route('register')}}">Register</a></li>
                         <li><a href="{{route('login')}}">Sign In</a></li>
