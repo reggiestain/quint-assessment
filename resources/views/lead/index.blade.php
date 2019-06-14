@@ -12,6 +12,7 @@
         <th>Lastname</th>
         <th>Email</th>
         <th>Phone Number</th>
+        <th>Question</th>
         <th>Address</th>
       </tr>
     </thead>
@@ -22,6 +23,7 @@
         <td>{{$lead->last_name}}</td>
         <td>{{$lead->email}}</td>
         <td>{{$lead->phone_number}}</td>
+        <td>{{$lead->question}}</td>
         <td>
             {{$lead->street_number}} {{$lead->street_name}}<br>
             {{$lead->province}}, {{$lead->city}}<br>            
