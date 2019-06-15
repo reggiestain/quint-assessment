@@ -22,8 +22,8 @@
                         </li>
 
                         @else                       
-                        <li><a href="{{route('register')}}">Register</a></li>
-                        <li><a href="{{route('login')}}">Sign In</a></li>
+                        <li><a id="page1" href="{{route('register')}}">Register</a></li>
+                        <li><a id="page1" href="{{route('login')}}">Sign In</a></li>
                         @endauth
                     </ul>
                 </nav>

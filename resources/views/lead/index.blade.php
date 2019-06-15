@@ -5,7 +5,7 @@
     <div class="container bg1 spt-1" style="padding:40px">
   <h2>Leads Table</h2>
   <p></p>            
-  <table id="lead-tbl" class="table-responsive table table-hover">
+  <table id="lead-tbl" class="table table-hover table-bordered dt-responsive nowrap">
     <thead>
       <tr>
         <th>Firstname</th>

@@ -90,7 +90,7 @@ class LeadController extends Controller {
         $lead = $this->create($request->all());
         //Event job
         SendEmailJob::dispatch()
-                ->delay(now()->addSecond(10));       
+                ->delay(now()->addSecond(50));       
         Mail::to(env('MAIL_TO'))->send(new SendEmailMailable($lead));
 
         return Redirect::back()->with('success', 'Your info has been saved successful.');
